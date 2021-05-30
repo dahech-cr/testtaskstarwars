@@ -3,7 +3,6 @@
     <Header />
     <Main />
     <Footer /> 
-
   </div>
 </template>
 
@@ -18,7 +17,7 @@ export default {
     Header , Main , Footer
   },
   mounted(){
-    console.log('helloworld')
+    window.scrollTo(0, 0);
   }
 }
 </script>
